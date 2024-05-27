@@ -1,0 +1,127 @@
+/* styles.css */
+
+/* General styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#loginScreen, #appScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+/* Input fields and buttons */
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* PDF viewer */
+#pdfViewer {
+    width: 500px;
+    height: 600px;
+    border: 1px solid white;
+    overflow: auto;
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+/* Answer display */
+#answer {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Summary display */
+#summary {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/* Feedback form */
+#feedbackForm {
+    margin-top: 20px;
+}
+
+/* Loading indicator */
+#loading {
+    display: none;
+    margin-top: 20px;
+    color: #0074D9;
+}
+
+/* Highlighting */
+mark {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Pagination controls */
+#paginationControls {
+    margin-top: 20px;
+}
+
+.pageButton {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.pageButton:hover {
+    background-color: #0056b3;
+}
+
+/* Zoom controls */
+#zoomControls {
+    margin-top: 20px;
+}
+
+.zoomButton {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.zoomButton:hover {
+    background-color: #0056b3;
+}
